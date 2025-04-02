@@ -49,4 +49,4 @@ def contact_form():
             st.success("Your message has been sent successfully! 🎉", icon="🚀")
         else:
             st.error("There was an error sending your message.", icon="😨")
-            # End of file
+            # End of form
