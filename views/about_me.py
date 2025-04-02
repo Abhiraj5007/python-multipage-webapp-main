@@ -3,7 +3,7 @@ import streamlit as st
 from forms.contact import contact_form
 
 
-@st.experimental_dialog("Contact Me")
+@st.dialog("Contact Me")
 def show_contact_form():
     contact_form()
 
@@ -22,26 +22,17 @@ with col2:
         show_contact_form()
 
 
-# --- EXPERIENCE & QUALIFICATIONS ---
-st.write("\n")
-st.subheader("Experience & Qualifications", anchor=False)
-st.write(
-    """
-    - 7 Years experience extracting actionable insights from data
-    - Strong hands-on experience and knowledge in Python and Excel
-    - Good understanding of statistical principles and their respective applications
-    - Excellent team-player and displaying a strong sense of initiative on tasks
-    """
-)
+
 
 # --- SKILLS ---
 st.write("\n")
-st.subheader("Hard Skills", anchor=False)
+st.subheader("Skills", anchor=False)
 st.write(
     """
-    - Programming: Python (Scikit-learn, Pandas), SQL, VBA
-    - Data Visualization: PowerBi, MS Excel, Plotly
-    - Modeling: Logistic regression, linear regression, decision trees
-    - Databases: Postgres, MongoDB, MySQL
+- Technical: C, C++, HTML, CSS, Bootstrap, JavaScript, MATLAB, Microsoft Office, Adobe Photoshop, Canva.
+- Non-Technical: Problem solving, Adaptability, Teamwork, Time Management, Critical Thinking, Creativity, Active
+Listening.
+- Curriculum: Power System, Power Electronics, MATLAB-Simulink, Electrical Machines.
+- Interests: Data Structures & Algorithm, Problem Solving, Web development (MERN).
     """
 )

@@ -8,16 +8,16 @@ import streamlit as st
 def response_generator():
     response = random.choice(
         [
-            "Hey there! Need help? Check out my fun YouTube channel 'CodingIsFun': https://youtube.com/@codingisfun!",
-            "Hi! What's up? Don't forget to subscribe to 'CodingIsFun': https://youtube.com/@codingisfun!",
-            "Hello! Need assistance? My YouTube channel 'CodingIsFun' is full of great tips: https://youtube.com/@codingisfun!",
-            "Hey! Got a question? Also, subscribe to 'CodingIsFun' for awesome tutorials: https://youtube.com/@codingisfun!",
-            "Hi there! How can I help? BTW, my channel 'CodingIsFun' is super cool: https://youtube.com/@codingisfun!",
-            "Hello! Looking for help? Check out 'CodingIsFun' on YouTube: https://youtube.com/@codingisfun!",
-            "Hey! Need assistance? 'CodingIsFun' YouTube channel has you covered: https://youtube.com/@codingisfun!",
-            "Hi! Got any coding questions? Don't forget to watch 'CodingIsFun': https://youtube.com/@codingisfun!",
-            "Hello! Need help? 'CodingIsFun' on YouTube is a must-see: https://youtube.com/@codingisfun!",
-            "Hey there! Any questions? My channel 'CodingIsFun' rocks: https://youtube.com/@codingisfun!",
+            "Hey there! Need help? Check out my fun YouTube channel 'CodeWithHarry': https://www.youtube.com/@CodeWithHarry",
+            "Hi! What's up? Don't forget to subscribe to 'CodeWithHarry': https://www.youtube.com/@CodeWithHarry",
+            "Hello! Need assistance? My YouTube channel 'CodeWithHarry' is full of great tips: https://www.youtube.com/@CodeWithHarry",
+            "Hey! Got a question? Also, subscribe to 'CodeWithHarry' for awesome tutorials: https://www.youtube.com/@CodeWithHarry",
+            "Hi there! How can I help? BTW, my channel 'CodeWithHarry' is super cool: https://www.youtube.com/@CodeWithHarry",
+            "Hello! Looking for help? Check out 'CodeWithHarry' on YouTube: https://youtube.com/@codingisfun!",
+            "Hey! Need assistance? 'CodeWithHarry' YouTube channel has you covered: https://www.youtube.com/@CodeWithHarry",
+            "Hi! Got any coding questions? Don't forget to watch 'CodeWithHarry': https://www.youtube.com/@CodeWithHarry",
+            "Hello! Need help? 'CodeWithHarry' on YouTube is a must-see: https://www.youtube.com/@CodeWithHarry",
+            "Hey there! Any questions? My channel 'CodeWithHarry' rocks: https://www.youtube.com/@CodeWithHarry",
         ]
     )
     for word in response.split():
